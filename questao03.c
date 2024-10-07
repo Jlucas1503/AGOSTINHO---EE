@@ -19,7 +19,7 @@ int main(){
   i = *&*&j;
   
   q = *p;
-  // a variavel só armazena um endereço para inteiro
+  // a variavel só armazena um endereço para inteiro.
   i = (*p)++ + *q;
 
 }

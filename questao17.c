@@ -4,7 +4,7 @@ Um memory leak ocorre quando um programa reserva memória usando malloc mas depo
 
 
 
-
+8
 
 
 

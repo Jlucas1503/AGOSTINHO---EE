@@ -4,18 +4,18 @@
                 Code, Compile, Run and Debug C program online.
 Write your code in this editor and press "Run" button to compile and execute it.
 
-********************************************************************************/
+*******************************************************************************/
 
 #include <stdio.h>
 #include <stdlib.h>
 
 
-void comparar(const void *a, const void *b){
+int comparar(const void *a, const void *b){
     if(*(float*)a > *(float*)b){
         return 1;
     }
         
-    else if((float*)a < (float*)b){
+    else if(*(float*)a < *(float*)b){
         return -1;
     }   
     
@@ -54,7 +54,7 @@ int main(){
     
     
     for(int i = 0; i < n ; i++){
-        printf("%.f", meumalloc[i]);
+        printf("%f\n", meumalloc[i]);
     }
     
     free(meumalloc);

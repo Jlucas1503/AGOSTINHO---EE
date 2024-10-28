@@ -14,4 +14,4 @@ Resposta:
 - endereço da variável de I: 4094
 - Inteiros valem 2 bytes ao inves de 4 bytes
 
-Output: 4094 4096 7 5 15 9 
+Output: 4094 4096 7 5 15 9 */

@@ -2,7 +2,7 @@
 
 
  struct teste{
- int x = 3;
+ int x = 3; // não posso fazer uma atribuiçao de um valor a uma variavel dentro do struct
  char nome[] = "jose";
  };
  
@@ -11,7 +11,7 @@
  
  
 int main(){ // erro nessa linha, pois é preciso do int antes de chamar a função main
- struct teste *s;
+ struct teste *s; //erro, pois o ponteiro nao foi atribuido antes.
  
  
  

@@ -12,3 +12,6 @@ int main(){
   free(str);
   return 0;
 }
+/*O problema está na função de fora. Quando str é passado para a função funcao, é passado por referência (o endereço do ponteiro). No entanto, ao incrementar str na linha str++;, o ponteiro localmente dentro da função é incrementado, mas a modificação não afeta o ponteiro original no main. Portanto, quando puts(str); é executado, o ponteiro ainda aponta para a string original "Agostinho", e não a "gostinho" como esperado.
+
+.*/
